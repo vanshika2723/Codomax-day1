@@ -18,7 +18,7 @@ This project is created as part of the Full Stack Development training Day 1 tas
 ### 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/vanshika2723/Codomax-day1.git
 cd fullstack-day1
 ```
 
