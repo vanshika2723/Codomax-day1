@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Blogs | MyBlog</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,8 +13,8 @@
         <h1>MyBlog</h1>
 
         <nav>
-            <a href="index.html">Home</a> |
-            <a href="blog.html">Blogs</a> |
+            <a href="index.html">Home</a> 
+            <a href="blog.html">Blogs</a> 
             <a href="add-blog.html">Add Blog</a>
         </nav>
 
@@ -23,54 +24,109 @@
 
     <main>
 
-        <h2>All Blog Posts</h2>
+    <h2>All Blog Posts</h2>
 
-        <article>
-            <h3>Getting Started with Full Stack Development</h3>
-            <p><strong>Author:</strong> Admin | <strong>Category:</strong> Technology</p>
-            <p>
-                Learn the basics of frontend and backend development and start
-                your Full Stack Development journey.
-            </p>
-            <a href="#">Read More</a>
-        </article>
+    <div class="blog-container">
 
-        <hr>
+        <div class="blog-card">
 
-        <article>
-            <h3>Why HTML is the Foundation of the Web</h3>
-            <p><strong>Author:</strong> Admin | <strong>Category:</strong> HTML</p>
-            <p>
-                HTML is the backbone of every website. It defines the structure
-                of web pages.
-            </p>
-            <a href="#">Read More</a>
-        </article>
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600" alt="Full Stack">
 
-        <hr>
+            <div class="blog-content">
 
-        <article>
-            <h3>Introduction to CSS</h3>
-            <p><strong>Author:</strong> Admin | <strong>Category:</strong> CSS</p>
-            <p>
-                CSS is used to style web pages and create attractive user
-                interfaces.
-            </p>
-            <a href="#">Read More</a>
-        </article>
+                <h3>Getting Started with Full Stack Development</h3>
 
-        <hr>
+                <p class="meta">
+                    <strong>Author:</strong> Admin |
+                    <strong>Category:</strong> Technology
+                </p>
 
-        <article>
-            <h3>JavaScript Basics</h3>
-            <p><strong>Author:</strong> Admin | <strong>Category:</strong> JavaScript</p>
-            <p>
-                JavaScript adds interactivity and dynamic behavior to websites.
-            </p>
-            <a href="#">Read More</a>
-        </article>
+                <p>
+                    Learn the basics of frontend and backend development
+                    and start your Full Stack Development journey.
+                </p>
 
-    </main>
+                <a href="#">Read More →</a>
+
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600" alt="HTML">
+
+            <div class="blog-content">
+
+                <h3>Why HTML is the Foundation of the Web</h3>
+
+                <p class="meta">
+                    <strong>Author:</strong> Admin |
+                    <strong>Category:</strong> HTML
+                </p>
+
+                <p>
+                    HTML is the backbone of every website. It defines the
+                    structure of web pages.
+                </p>
+
+                <a href="#">Read More →</a>
+
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=600" alt="CSS">
+
+            <div class="blog-content">
+
+                <h3>Introduction to CSS</h3>
+
+                <p class="meta">
+                    <strong>Author:</strong> Admin |
+                    <strong>Category:</strong> CSS
+                </p>
+
+                <p>
+                    CSS is used to style web pages and create attractive,
+                    responsive user interfaces.
+                </p>
+
+                <a href="#">Read More →</a>
+
+            </div>
+
+        </div>
+
+        <div class="blog-card">
+
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600" alt="JavaScript">
+
+            <div class="blog-content">
+
+                <h3>JavaScript Basics</h3>
+
+                <p class="meta">
+                    <strong>Author:</strong> Admin |
+                    <strong>Category:</strong> JavaScript
+                </p>
+
+                <p>
+                    JavaScript adds interactivity and dynamic behavior
+                    to modern websites.
+                </p>
+
+                <a href="#">Read More →</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
 
     <hr>
 
