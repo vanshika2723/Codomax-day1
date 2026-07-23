@@ -83,43 +83,51 @@ Hello World!
 
 **Vanshika Khandelwal**
 
-
-# Day 2 – HTML Basics
+# 📘 Day 2 - HTML Basics | Codomax Full Stack Internship
 
 ## 📌 Project Title
-Codomax Blog Management System - Day 2
+**MyBlog – Blog Management System (Day 2)**
 
 ## 📖 Description
-This project is created as part of **Day 2** of the Full Stack Development Internship at **Codomax Digital Solutions**.
+This project is developed as part of **Day 2** of the **Codomax Full Stack Development Internship**.
 
-The objective of this task is to build the basic structure of a Blog Management System using HTML.
+The objective of this task was to create the basic structure of a Blog Management System using only **HTML**. The project includes a Home Page, Blog Page, Add Blog Page, Navigation Bar, and Footer.
 
-## ✅ Features Implemented
+---
 
-- Home Page
-- Blog Page
-- Navigation Bar
-- Footer
-- Basic HTML5 Structure
-- Internal Page Navigation
+## ✨ Features
 
-## 🛠️ Technologies Used
+- 🏠 Home Page
+- 📝 Blog Page
+- ➕ Add Blog Page
+- 🧭 Navigation Bar
+- 📄 Footer Section
+- 📚 Multiple HTML Pages
+- 🔗 Internal Navigation
+
+---
+
+## 🛠 Technologies Used
 
 - HTML5
 - Node.js
-- Express.js (Serving Static Files)
+- Express.js
 - VS Code
-- Git & GitHub
+- Git
+- GitHub
+
+---
 
 ## 📂 Project Structure
 
 ```
-Codomax-Blog-Management/
+Codomax-Day2/
 │
 ├── node_modules/
 ├── public/
 │   ├── index.html
 │   ├── blog.html
+│   └── add-blog.html
 │
 ├── server.js
 ├── package.json
@@ -127,62 +135,107 @@ Codomax-Blog-Management/
 └── README.md
 ```
 
+---
+
 ## 🚀 How to Run
 
-### 1. Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Start the Server
+### Start Server
 
 ```bash
 node server.js
 ```
 
-### 3. Open Browser
+### Open Browser
 
 ```
 http://localhost:3000
 ```
 
-## 📄 Pages Included
+---
+
+## 📄 Pages
 
 ### 🏠 Home Page
-- Website Title
+- Website Introduction
 - Navigation Bar
 - Welcome Section
-- About Section
+- Featured Blog Posts
 - Footer
 
 ### 📝 Blog Page
-- Blog Title
-- Blog Articles
+- List of Blog Posts
+- Blog Details
 - Navigation Bar
 - Footer
 
+### ➕ Add Blog Page
+- Blog Title
+- Author Name
+- Category
+- Blog Content
+- Publish Blog Button
+
+---
+
 ## 🎯 Learning Outcomes
 
-- Understanding HTML5 structure
-- Creating multiple web pages
-- Linking pages using navigation
-- Building reusable page sections
-- Serving static HTML using Express.js
+- Understanding HTML5 Structure
+- Creating Multiple Web Pages
+- Building Navigation Bar
+- Creating Forms
+- Adding Footer
+- Linking Pages Together
+- Serving Static Files using Express
 
-## 📌 Expected Outcome
+---
 
-✔ Home page created
+## 📸 Output
 
-✔ Blog page created
+✔ Home Page Created
 
-✔ Navigation bar added
+✔ Blog Page Created
 
-✔ Footer added
+✔ Add Blog Page Created
 
-✔ Pages accessible through Express server
+✔ Navigation Bar Added
+
+✔ Footer Added
+
+✔ Express Server Running Successfully
+
+---
 
 ## 👩‍💻 Author
+
+**Vanshika Khandelwal**
+
+Full Stack Development Intern
+
+**Codomax**
+
+---
+
+## ⭐ GitHub Repository
+
+Add your GitHub repository link here.
+
+```
+https://github.com/vanshika2723/Codomax-day1
+```
+
+---
+
+### 📅 Internship
+**Codomax Full Stack Development Internship – Day 2**
+
+
+
 
 **Vanshika Khandelwal**
 
