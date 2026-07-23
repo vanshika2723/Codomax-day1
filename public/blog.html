@@ -1,68 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Add Blog | Simple Blog Management System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Blogs | MyBlog</title>
 </head>
 <body>
 
-  <!-- Navigation Bar -->
-  <header>
-    <nav>
-      <div class="logo">
-        <h2>MyBlog</h2>
-      </div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Add Blog</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
 
-  <!-- Main Content -->
-  <main>
-    <section class="form-section">
-      <h1>Add a New Blog Post</h1>
-      <p>Fill in the details below to publish a new blog post.</p>
+        <h1>MyBlog</h1>
 
-      <!-- Note: Actual submission logic (Fetch/Express) comes in Day 4 & Day 6 -->
-      <form id="add-blog-form">
-        <div class="form-group">
-          <label for="blog-title">Blog Title</label>
-          <input type="text" id="blog-title" name="title" placeholder="Enter blog title" required>
-        </div>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="blog.html">Blogs</a> |
+            <a href="add-blog.html">Add Blog</a>
+        </nav>
 
-        <div class="form-group">
-          <label for="blog-author">Author Name</label>
-          <input type="text" id="blog-author" name="author" placeholder="Enter your name" required>
-        </div>
+    </header>
 
-        <div class="form-group">
-          <label for="blog-category">Category</label>
-          <select id="blog-category" name="category">
-            <option value="technology">Technology</option>
-            <option value="lifestyle">Lifestyle</option>
-            <option value="education">Education</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
+    <hr>
 
-        <div class="form-group">
-          <label for="blog-content">Blog Content</label>
-          <textarea id="blog-content" name="content" rows="8" placeholder="Write your blog content here..." required></textarea>
-        </div>
+    <main>
 
-        <button type="submit" class="submit-btn">Publish Blog</button>
-      </form>
-    </section>
-  </main>
+        <h2>All Blog Posts</h2>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 MyBlog | Built during Codomax Full Stack Internship</p>
-    <p><a href="https://in.linkedin.com/company/codomaxdigital">Follow us on LinkedIn</a></p>
-  </footer>
+        <article>
+            <h3>Getting Started with Full Stack Development</h3>
+            <p><strong>Author:</strong> Admin | <strong>Category:</strong> Technology</p>
+            <p>
+                Learn the basics of frontend and backend development and start
+                your Full Stack Development journey.
+            </p>
+            <a href="#">Read More</a>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>Why HTML is the Foundation of the Web</h3>
+            <p><strong>Author:</strong> Admin | <strong>Category:</strong> HTML</p>
+            <p>
+                HTML is the backbone of every website. It defines the structure
+                of web pages.
+            </p>
+            <a href="#">Read More</a>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>Introduction to CSS</h3>
+            <p><strong>Author:</strong> Admin | <strong>Category:</strong> CSS</p>
+            <p>
+                CSS is used to style web pages and create attractive user
+                interfaces.
+            </p>
+            <a href="#">Read More</a>
+        </article>
+
+        <hr>
+
+        <article>
+            <h3>JavaScript Basics</h3>
+            <p><strong>Author:</strong> Admin | <strong>Category:</strong> JavaScript</p>
+            <p>
+                JavaScript adds interactivity and dynamic behavior to websites.
+            </p>
+            <a href="#">Read More</a>
+        </article>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>© 2026 MyBlog | Built during Codomax Full Stack Internship</p>
+
+        <p>
+            Follow us on
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </p>
+
+    </footer>
 
 </body>
 </html>
