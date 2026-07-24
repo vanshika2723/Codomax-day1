@@ -242,3 +242,29 @@ https://github.com/vanshika2723/Codomax-day1
 Full Stack Development Intern
 
 Codomax Digital Solutions
+
+# Day 3 – CSS Styling
+
+## Tasks Completed
+- Styled Home Page
+- Designed Navigation Bar
+- Created Hero Section
+- Added Responsive Blog Cards
+- Designed Add Blog Form
+- Styled Footer
+- Applied Responsive CSS
+- Added Hover Effects
+
+## Technologies Used
+- HTML5
+- CSS3
+
+## Learning Outcome
+- Learned CSS Styling
+- Flexbox & Grid Layout
+- Responsive Web Design
+- Modern UI Design
+- Hover Effects and Shadows
+
+## Project Status
+✅ Day 3 Completed Successfully
